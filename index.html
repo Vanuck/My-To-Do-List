@@ -4,14 +4,17 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>repl.it</title>
-	<link href="styles.css" rel="stylesheet" type="text/css" />
+	<title>To Do List App</title>
+	<link href="css/styles.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 	<div class="container">
-		<h2>To Do List App</h2>
-		<p><em> Double click to mark an item off, click on "X" to delete an item, and drag items to reorder.</em></p>
+		<h1>To Do List App</h1>
+        <p><em>Enter in your item and click "Add"</em></p>
+		<p><em>Double click to mark an item off</em></p>
+        <p><em>Click on "-" to delete an item</em></p>
+        <p><em>Drag items to reorder.</em></p>
        
 		<form name="toDoList">
 			<input type="text" name="ListItem" id="input"/>
@@ -19,7 +22,7 @@
     
 		<div onclick="newItem()" id="button">Add</div>
 		<br/>
-		<ol id="list"></ol>
+		<ol id="list" class="ui-sortable"></ol>
   </div>
   <script
   src="https://code.jquery.com/jquery-3.5.1.js"
