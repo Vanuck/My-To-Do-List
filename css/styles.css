@@ -1,17 +1,18 @@
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
 
 body {
-    font: normal normal 13px/16px "Open Sans", sans-serif;
-    background: #dfdfdf;
+    font-family: 'Tangerine', serif;
+  font-size: 22px;
+  font-weight: 700;
 }
 
 .container{
-    padding: 20px;
+    padding: 10px;
     width: 300px;
     margin: 0 auto;
-    margin-top: 40px;
-    background: white;
+    margin-top: 30px;
+    background: #a1fbbf;
     border-radius: 5px;}
 
 form {
@@ -20,15 +21,16 @@ form {
 
 input{
     padding: 4px 15px 4px 5px;
+    border-radius: 15px;
 }
 
 #button{
     display: inline-block;
-    background-color:#fc999b;
+    background-color:#38138d;
     color:#ffffff;
-    border-radius: 5px;
+    border-radius: 15px;
     text-align:center;
-    margin-top:2px;
+    margin-top:15px;
     padding: 5px 15px;
 }
 
@@ -63,4 +65,5 @@ li > crossOutButton {
 	float: right;
 	color: #025f70;
 	font-weight: 800;
+    cursor: pointer;
 }
