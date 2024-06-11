@@ -1,6 +1,6 @@
 # My-To-Do-List Application
 
-![Screenshot1] (https://(https://github.com/Vanuck/My-To-Do-List/tree/main/img/todolist.png))
+![Screenshot1] (img/todolist.png)
 
 A simple todo-list app to practice the Vue.js framework. A User can add and delete todos, edit them and mark them as completed.
 
